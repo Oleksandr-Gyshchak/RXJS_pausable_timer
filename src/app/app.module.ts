@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SecondsToTimePipe } from './shared/pipes/seconds-to-time.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SecondsToTimePipe
   ],
   imports: [
     BrowserModule,

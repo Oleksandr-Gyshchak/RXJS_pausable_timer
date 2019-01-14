@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 70%;
+}
+
+.colomn {
+  flex-direction: column;
+  align-content: space-between;
+}
